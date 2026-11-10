@@ -678,33 +678,6 @@ Para demonstrar o funcionamento do projeto, recomendamos apresentar:
 
 ---
 
-## 🔒 Segurança e boas práticas
-
-Durante o desenvolvimento, adotamos uma separação entre o código-fonte e as credenciais de autenticação.
-
-Para manter essa organização:
-
-- Não publique arquivos `.env` com chaves reais.
-- Não publique `secrets.h` com credenciais privadas.
-- Utilize arquivos de exemplo para facilitar a configuração.
-- Não trate o Cloudflare Tunnel temporário como uma implantação de produção.
-- Mantenha a lógica básica de controle da cancela no ESP32.
-- Utilize arquivos de modelo `.pkl` somente de fontes confiáveis.
-
-### 📂 Exemplo de `.gitignore`
-
-```gitignore
-.venv/
-__pycache__/
-.env
-secrets.h
-*.pyc
-```
-
-> 📌 O arquivo `modelo_smart_bus_gate.pkl` pode ser reproduzido pelo script de treinamento. Caso seja incluído no repositório, deve corresponder ao modelo validado pela equipe.
-
----
-
 ## 🌱 Impacto e evolução
 
 O Smart Bus Gate contribui para demonstrar como a tecnologia pode apoiar a modernização de operações de transporte.
