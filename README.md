@@ -1,14 +1,15 @@
 
 # 🚌 Smart Bus Gate | Pátio Monitor
 
-### 👩‍💻 Integrantes
+**Global Solution 2026 - 2º semestre | Engenharia de Software - FIAP**
 
-**Global Solution 2026 — 2º semestre | Engenharia de Software — FIAP**
+## 👩‍💻 Integrantes
 
-- **Camila do Prado Padalino** — RM 98316
-- **Felipe Cavalcante Bressane** — RM 97688
-- **Gabriel Teixeira Machado** — RM 551570
-
+| Nome | RM |
+|---|---|
+| Camila do Prado Padalino | 98316 |
+| Felipe Cavalcante Bressane | 97688 |
+| Gabriel Teixeira Machado | 551570 |
 ---
 
 ## 🎥 Demonstração
