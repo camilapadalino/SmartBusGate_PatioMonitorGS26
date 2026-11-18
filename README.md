@@ -11,6 +11,16 @@
 
 ---
 
+## 🎥 Demonstração
+
+📹 **Vídeo demonstrativo:** 
+
+🔗 **Projeto Wokwi:** https://wokwi.com/projects/480155608742885377
+
+🌐 **Portal Pátio Monitor:** https://patio-monitor-production.up.railway.app/
+
+---
+
 ## 🌟 Sobre o projeto
 
 Imagine um terminal de ônibus onde os operadores precisam acompanhar constantemente a entrada, a saída e a permanência dos veículos.
@@ -347,25 +357,23 @@ Antes de começar, tenha instalado ou disponível:
 
 Para reproduzir a integração com RPA, também é necessário configurar um webhook compatível no n8n.
 
+> 🐍 **Versão recomendada do Python:** 3.12. Essa versão foi utilizada nos testes de execução do projeto e é recomendada para manter a compatibilidade com as bibliotecas de Machine Learning, especialmente o Scikit-learn.
+
 ### 📥 2. Clonar o repositório
 
 Abra o terminal e execute:
 
 ```powershell
-git clone SmartBusGate_PatioMonitorGS26
+git clone https://github.com/camilapadalino/SmartBusGate_PatioMonitorGS26.git
 cd SmartBusGate_PatioMonitorGS26
 ```
-
-Substitua `URL_DO_REPOSITORIO` pelo endereço real do GitHub.
-
-Caso o nome da pasta seja diferente, utilize o nome criado durante a clonagem.
 
 ### 🐍 3. Preparar o ambiente virtual
 
 Dentro da pasta do projeto, execute:
 
 ```powershell
-python -m venv .venv
+py -3.12 -m venv .venv
 ```
 
 Em seguida, ative o ambiente:
@@ -665,9 +673,7 @@ Isso confirma que o ESP32 conseguiu enviar dados à API e receber uma classifica
 | Tratamento de falhas HTTP no n8n | ✅ Testado separadamente |
 | Integração com portal web | ⏳ Pendente |
 
-### 📸 Evidências recomendadas
-
-Para demonstrar o funcionamento do projeto, recomendamos apresentar:
+### 📸 Evidências Fornecidas
 
 - Captura do circuito no Wokwi.
 - Simulação da abertura e do fechamento da cancela.
@@ -696,16 +702,6 @@ Como evolução da solução, pretendemos:
 - Expandir os registros operacionais.
 - Integrar os eventos ao portal Pátio Monitor.
 - Desenvolver novas funcionalidades de monitoramento e visualização.
-
----
-
-## 🎥 Demonstração
-
-📹 **Vídeo demonstrativo:** 
-
-🔗 **Projeto Wokwi:** https://wokwi.com/projects/480155608742885377
-
-🌐 **Portal Pátio Monitor:** 
 
 ---
 
