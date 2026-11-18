@@ -352,8 +352,8 @@ Para reproduzir a integração com RPA, também é necessário configurar um web
 Abra o terminal e execute:
 
 ```powershell
-git clone URL_DO_REPOSITORIO
-cd Smart-Bus-Gate
+git clone SmartBusGate_PatioMonitorGS26
+cd SmartBusGate_PatioMonitorGS26
 ```
 
 Substitua `URL_DO_REPOSITORIO` pelo endereço real do GitHub.
