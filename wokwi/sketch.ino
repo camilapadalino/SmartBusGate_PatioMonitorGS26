@@ -35,11 +35,11 @@ const char* WIFI_PASSWORD = "";
 
 // ENDPOINT N8N
 const char* WEBHOOK_URL =
-  "https://globalsolutionrpa26.app.n8n.cloud/webhook/smart-bus-gate";
+  "https://globalsolutionrpa26.app.n8n.cloud/webhook-test/smart-bus-gate-auditoria";
 
 // ENDPOINT DA IA
 const char* URL_IA =
-  "https://occurring-largely-congress-consolidation.trycloudflare.com/prever";
+  "https://conscious-fog-hundred-cow.trycloudflare.com/prever";
 
 // VARIAVEIS
 Servo cancela;
