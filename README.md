@@ -395,7 +395,7 @@ Se a ativação funcionar, o terminal apresentará algo semelhante a:
 
 O projeto utiliza bibliotecas Python para executar a API, treinar o modelo e processar os dados.
 
-Crie um arquivo chamado `requirements.txt` na pasta principal do projeto com o seguinte conteúdo:
+O arquivo `requirements.txt` na pasta principal do projeto, possui o seguinte conteúdo:
 
 ```text
 fastapi
@@ -414,7 +414,6 @@ python -m pip install -r requirements.txt
 
 Esse comando instalará automaticamente as dependências necessárias.
 
-> 📌 Para maior reprodutibilidade, recomendamos fixar as versões das bibliotecas após conferir as versões utilizadas nos testes.
 
 ### 🧠 5. Treinar o modelo de Machine Learning
 
@@ -620,8 +619,6 @@ O endereço pode mudar quando o túnel for reiniciado.
 🔗 **Projeto Wokwi:**
 
 https://wokwi.com/projects/480155608742885377
-
-> ⚠️ Os nomes exatos das variáveis e arquivos de configuração do ESP32 devem ser conferidos no `sketch.ino` antes da publicação definitiva.
 
 ### ✅ 11. Verificar os resultados esperados
 
