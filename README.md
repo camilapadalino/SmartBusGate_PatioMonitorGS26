@@ -14,7 +14,7 @@
 
 ## 🎥 Demonstração
 
-📹 **Vídeo demonstrativo:** 
+📹 **Vídeo demonstrativo:** https://www.youtube.com/watch?v=-ls9kAeK2tE
 
 🔗 **Projeto Wokwi:** https://wokwi.com/projects/480155608742885377
 
